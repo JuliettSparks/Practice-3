@@ -28,15 +28,15 @@ cout<<"Dame el tama"<<char(164)<<"o de la matriz"<<endl;
  cout<<"Suma de Matrices\n";
  for( int i=0;i<n;i++){
      for(int j=0;j<n;j++){
-            //cout<<"["<<C[i][j]<<"]"<<endl;
-            printf("[%d][%d]\n",C[i][j]);
+            cout<<"["<<C[i][j]<<"]"<<endl;
+            //printf("[%d][%d]\n",C[i][j]);
       }
   }
 cout<<"Resta de Matrices\n";
 for(int i=0;i<n;i++){
 	for(int j=0;j<n;j++){
-		//cout<<"["<<D[i][j]<<"]"<<endl;
-		printf("[%d][%d]\n",D[i][j]);
+		cout<<"["<<D[i][j]<<"]"<<endl;
+		//printf("[%d][%d]\n",D[i][j]);
 	}
 }
 }
